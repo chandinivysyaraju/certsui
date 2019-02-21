@@ -1,13 +1,12 @@
-
     <div class="container"><br>
       <br>
       <br>
-      <ul class="nav">
+      <ul class="nav mainlist">
           <li class="nav-item">
             <a (click)="showpage('initial')" class="nav-link active">OVERVIEW</a>
           </li>
           <li class="nav-item">
-            <a (click)="showpage('final')" class="nav-link disabled">ORGANISATION</a>
+            <a (click)="showpage('final')" class="nav-link">ORGANISATION</a>
           </li>
         </ul>
       <br>
@@ -22,11 +21,11 @@
         <div class="col-xl-12">
             <div class="inline" >
                 <div class="col-md-12 text-center">
-                    <div class="col-md-12 " style="align-content: center">
+                    <div class="col-md-12 ">
                         <ul class="nav nav-tabs">
                             <li  class="nav-item">
                                 <a  (click)="setflag('issuer')" aria-controls="issuer" role="tab" class="active show nav-link issuer"
-                                    data-toggle="tab">Issuer</a>
+                                mainlist        data-toggle="tab">Issuer</a>
                             </li>
                             <li class="nav-item">
                                 <a  (click)="setflag('auth')"  aria-controls="authorizer" role="tab" data-toggle="tab"
@@ -89,7 +88,7 @@
                                     </tbody>
                                 </table><br>
                                 <br><br>
-                                <br>
+            
                     <button class="adduserbtn">ADD NEW ISSUER</button>
 
                             </div>
@@ -139,8 +138,10 @@
                                                     style="color:orangered;font-size: 20px;">remove</button></td>
                                         </tr>
                                     </tbody>
-                                </table>
-                    <button class="adduserbtn adduserfont">ADD NEW AUTHORIZER</button>
+                                </table><br>
+                                <br>
+                                <br>
+                    <button class="adduserbtn">ADD NEW AUTHORIZER</button>
 
                             </div>
                           </ng-template>
