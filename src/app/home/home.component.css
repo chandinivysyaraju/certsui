@@ -1,0 +1,146 @@
+.authorizer {
+    width: 150px;
+
+    height: 50px;
+
+    font-family: Muli;
+
+    font-size: 25px;
+
+    font-weight: bold;
+
+    font-style: normal;
+
+    font-stretch: normal;
+
+    line-height: 1.27;
+
+    letter-spacing: normal;
+
+    text-align: left;
+
+    color: #b9b9b9;
+}
+
+.issuer {
+    width: 155px;
+
+    height: 50px;
+
+    font-family: Muli;
+
+    font-size: 25px;
+
+    font-weight: bold;
+
+    font-style: normal;
+
+    font-stretch: normal;
+
+    line-height: 1.27;
+
+    letter-spacing: normal;
+
+    text-align: left;
+
+    color: #1b3764;
+}
+
+.superadmintables td {
+    font-family: Muli;
+
+font-size: 20px;
+
+font-weight: normal;
+
+font-style: normal;
+
+font-stretch: normal;
+
+line-height: 1.4;
+
+letter-spacing: normal;
+
+text-align: center;
+
+color:  #484848;
+}
+
+
+.superadmintables th{
+font-family: Muli;
+
+font-size: 20px;
+
+font-weight: 800;
+
+font-style: normal;
+
+font-stretch: normal;
+
+line-height: 1.4;
+
+letter-spacing: normal;
+
+text-align: center;
+
+color: #797979;
+}
+
+.superadmintables {
+    width: 1082px;
+
+    height: 350px;
+
+    border-radius: 5px;
+
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.08);
+}
+.adduserbtn{
+
+width: 220px;
+
+height: 50px;
+
+border-radius: 10px;
+
+background-color: var(--orange);
+font-family: Muli;
+
+font-size: 16px;
+
+font-weight: 900;
+
+font-style: normal;
+
+font-stretch: normal;
+
+line-height: 1.25;
+
+letter-spacing: normal;
+
+text-align: center;
+
+color: var(--white);
+}
+
+/* .adduserfont{
+font-family: Muli;
+
+font-size: 16px;
+
+font-weight: 900;
+
+font-style: normal;
+
+font-stretch: normal;
+
+line-height: 1.25;
+
+letter-spacing: normal;
+
+text-align: center;
+
+color: var(--white);
+} */
+
